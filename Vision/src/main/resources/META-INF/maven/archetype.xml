@@ -1,0 +1,13 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		   xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+	<id>com.eaton</id>
+	<sources>
+		<source>src/main/java/com.eaton/Controllers/TestController.java</source>
+		<source>src/main/java/com.eaton/Models/Greeting.java</source>
+		<source>src/main/java/com.eaton/Repositories/TestRepo.java</source>
+		<source>src/main/java/com.eaton/Services/TestService.java</source>
+	</sources>
+	<testSources>
+		<source>src/test/java/com.eaton/VisionApplicationTests.java</source>
+	</testSources>
+</archetype>
